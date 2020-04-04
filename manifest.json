@@ -1,0 +1,18 @@
+{
+    "manifest_version" : 2,
+    "name" : "codeX | أحصائيات فيروس كورونا في مصر",
+    "version" : "1.0",
+    "description" : "إضافه لمتابعه احصائيات فيروس كورونا في مصر أول بأول",
+    "icons" : {
+        "128" : "Asset 8.png"
+    },
+    "browser_action" : {
+        "default_popup" : "index.html",
+        "default_icon" : "Asset 8.png",
+        "default_title" : "codeX | Corona Viruse Notification"
+    },
+    "permissions" : [
+        "tabs",
+        "storage"
+    ]
+}
