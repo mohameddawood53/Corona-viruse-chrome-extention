@@ -2,14 +2,14 @@
 // $(".data").hide();
 setTimeout(function()
 {
+	// api settings
 	var settings = {
 		"async": true,
 		"crossDomain": true,
-		"url": "https://coronavirus-monitor.p.rapidapi.com/coronavirus/latest_stat_by_country.php?country=Egypt",
+		"url": "",
 		"method": "GET",
 		"headers": {
-			"x-rapidapi-host": "coronavirus-monitor.p.rapidapi.com",
-			"x-rapidapi-key": "79429321c1msh78b6258022a210fp1bddb9jsna54dbdc8ad43"
+			
 		}
 	}
 	
